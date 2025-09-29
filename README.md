@@ -27,11 +27,11 @@ The app uses trained machine learning models, including Decision Tree, Random Fo
 
 ## Setup Instructions
 
-# Create a virtual environment (optional but recommended)
+## Create a virtual environment (optional but recommended)
 
 python -m venv venv
 
-# Activate the virtual environment
+## Activate the virtual environment
 
 Windows:
 
@@ -43,22 +43,21 @@ Linux / macOS:
 source venv/bin/activate
 
 
-# Install dependencies
+## Install dependencies
 
 pip install -r requirements.txt
 
 
-# Run the Flask app
+## Run the Flask app
 
 python app.py
 
 
-# Open your browser
+## Open your browser
 Go to http://127.0.0.1:5000 to use the app.
 
-└─ salary_prediction_data.xlsx  # Sample dataset
-Notes
-If you don’t have the .pkl models, you can train them using the provided Jupyter notebook or Python script.
 
-Ensure your Python and library versions match the ones used in development (Python 3.11+, numpy < 2).
+## Notes
+1. If you don’t have the .pkl models, you can train them using the provided Jupyter notebook or Python script.
+2. Ensure your Python and library versions match the ones used in development (Python 3.11+, numpy < 2).
 
